@@ -82,16 +82,20 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 60px;
+    padding-bottom: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.gallery#listen a{
+        aspect-ratio: 1 / 1;
 }
 .gallery a {
-    aspect-ratio: 1 / 1;
     width: 32%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px; 
+    padding: 2.5%; 
     box-sizing: border-box;
 
     background-color: #000000cc;
@@ -115,4 +119,7 @@ h1 {
         5px 5px 1px #246024,
         0 0 40px black,
         0 0 10px black;
+}
+.bio {
+    
 }
