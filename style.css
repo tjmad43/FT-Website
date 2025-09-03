@@ -30,6 +30,7 @@ body {
     background-color: #f0f0f0;             
     color: #000;
   }
+/* bg image for homepage */
 .home_main {
     width: 100%;
     height: 800px;
@@ -43,6 +44,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+/* texture bg for other pages */
 .other_main {
     width: 100%;
     height: auto;
@@ -61,6 +63,8 @@ body {
     font-size: 16px;
     text-align: center;
 }
+
+/* for homepage */
 #socials {
     display: flex;
     justify-items: center;
@@ -77,6 +81,20 @@ body {
     position: sticky;
 }
 
+/* title for other pages */
+h1 {
+    font-size: 70px;
+    color: #000;
+    padding-left: 100px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 
+        5px 5px 1px #246024,
+        0 0 40px black,
+        0 0 10px black;
+}
+
+/* gallery layout for pages with visual content */
 .gallery {
     display: flex;
     flex-direction: row;
@@ -109,20 +127,11 @@ body {
     width: 90%;
     height: auto;
 }
-h1 {
-    font-size: 70px;
-    color: #000;
-    padding-left: 100px;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: white;
-    text-shadow: 
-        5px 5px 1px #246024,
-        0 0 40px black,
-        0 0 10px black;
-}
+
+/* for about page */
 .bio {
     
 }
 .carousel {
-    
+
 }
